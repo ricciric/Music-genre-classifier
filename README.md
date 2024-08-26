@@ -36,3 +36,15 @@ pip install -r requirements.txt
 ```
 python3 bpm.py
 ```
+
+- If you are interested in classification using either Short-time Fourier Transform (STFT), MEL-Frequency Cepstral Coefficients (MFCC) or Wavelet transform just change the *transform type* in `classifier.py`. In particular, if you are interested in Wavelet transform it's necessary to run the `transform.py` script before classification, other transforms don't need it.
+
+```
+python3 transform.py
+```
+
+- Classification
+
+```
+python3 classifier.py
+```
