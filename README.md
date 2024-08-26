@@ -15,7 +15,7 @@ This design ensures a comprehensive approach to genre classification by combinin
 - Clone the repository
 
 ```
-git clone https://github.com/TheBlind11/music-genre-classifier.git
+git clone https://github.com/ricciric/Music-genre-classifier
 cd music-genre-classifier
 ```
 
